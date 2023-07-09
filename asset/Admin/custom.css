@@ -1,0 +1,157 @@
+@media (max-width: 767px) {
+    /* CSS goes here */
+    #f_mobile{
+    	font-size:14px;
+    }
+
+   #mobile_button{
+   	height: 20px;
+   	width: 100%;
+   	font-size: 14px;
+   	font-weight: 700;
+   }
+   .mbsection{
+    margin-top: 30px;
+
+   }
+   #sel_history{
+
+   }
+   #frmUserMsg
+   {
+      height: 20px;
+      color:black;
+      text-align: left;
+      font-weight: 700;
+      font-size: 17px;
+   }
+   #toUserMsg
+   {
+      height: 20px;
+      color:green;
+      text-align: right;
+      font-weight: 700;
+   }
+   #btnchatbox{
+    margin-top: 20px;
+   }
+}
+
+
+@media (max-width: 992px) {
+    /* CSS goes here */
+    #f_mobile{
+      font-size:14px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    /* CSS goes here */
+
+   
+}
+ #text_size{
+      font-size:12px;
+      font-family: sans-serif;
+    }
+  #complaints_div{
+    height: 380px;
+    
+    overflow-x: scroll;
+    width: 98%;
+    overflow-wrap: inherit;
+    scroll-behavior: smooth;
+
+  }
+   #past_his_div{
+    height: 400px;
+   
+    overflow-x: scroll;
+    width: 98%;
+    overflow-wrap: inherit;
+    scroll-behavior: smooth;
+    
+  }
+  #emr_body{
+   
+    width: 98%;
+  
+    
+  }
+  #div_login{
+    margin-top: 120px;
+   }
+   input[type=text],input[type=file],input[type=email], input[type=password], input[type=number],  input[type=date],input[type=time], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #FAEBD7;
+  color: #A52A2A;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: 700;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #FAEBD7;
+    color: #A52A2A;
+    text-align: left;
+}
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #FAEBD7;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
